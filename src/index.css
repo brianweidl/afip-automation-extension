@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 500px;
+  background-color: #f4f4f4;
+}
+
+#fecha-factura {
+  margin: 10px;
+}
+
+#valor-factura {
+  margin: 10px;
+}
+
+#ver-total-button {
+  margin: 10px;
+}

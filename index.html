@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <script type="module" src="src/index.ts" defer></script>
+    <title>AFIP Automation</title>
+  </head>
+  <body>
+    <div class="container">
+      <label>Facturas</label>
+      <input type="date" id="fecha-factura" />
+      <input type="text" id="valor-factura" placeholder="Valor" />
+      <input type="text" id="cantidad" placeholder="Cantidad" />
+      <p id="error"></p>
+      <button type="button" id="empezar-button">Facturar</button>
+      <button type="button" id="ver-total-button">Ver total del mes</button>
+      <p id="total-mes"></p>
+    </div>
+  </body>
+</html>
