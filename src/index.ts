@@ -118,7 +118,7 @@ facturarButton?.addEventListener('click', () => {
         executeScriptInCurrentTab(paso4);
         setTimeout(() => {
           executeScriptInCurrentTab(paso5, [
-            formatValor || '18000',
+            formatValor || '25000',
             formatCantidad || '2',
           ]);
           setTimeout(() => {
