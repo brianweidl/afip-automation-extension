@@ -1,8 +1,7 @@
 # AFIP Automation Extension
-A browser extension that automates the process of creating invoices on the AFIP platform in Argentina.
 
 ## Requirements
-Node.js 18+
+- Node.js 18+
 
 ## Installation
 1. Clone the repository
